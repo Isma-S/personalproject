@@ -1,7 +1,7 @@
 
 
 // import Start from "./Start";
-import Start from "./start";
+import Start from "./Start.jsx";
 
 //navigation class
 function Home() {
