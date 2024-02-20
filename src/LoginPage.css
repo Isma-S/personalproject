@@ -1,0 +1,62 @@
+.Background-login {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.Background-login text {
+    position: relative;
+    top: 0px;
+    font-size: 100px;
+    font-weight: 500;
+    color: blue;
+    
+}
+
+.Login-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px; 
+    height: 140px;  
+    justify-content: space-around;
+}
+
+.Email-container,
+.Password-container {
+    width: 200px;
+    height: 40px; 
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+} 
+
+.Login-container button {
+    color: white;
+    background-color: blue;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.Background-login h2 {
+    color: blue;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.Background-login h3 {
+    color: black;
+    font-size: xx-small;
+}
+
+.Sign-up {
+    color: blue;
+}

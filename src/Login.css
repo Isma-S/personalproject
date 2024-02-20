@@ -1,0 +1,50 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    /* set up porpotion to the display */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .Background-color {
+    padding: 20px; 
+  }
+  
+  .Background-color h1 {
+    color: blue;
+  }
+  .Login-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .Email-container{
+    background-color: white;
+    padding: 4px;
+    color: black;
+  }
+  .Password-container{
+    background-color: white;
+    padding: 4px;
+    color: black;
+  }
+  .Login-container button{
+    padding: 10px;
+    color: white;
+    background-color: blue;
+  }
+  .Background-color h2 {
+    color: blue;
+    font-size: x-small;
+  }
+  .Background-color h3 {
+    color: black;
+    font-size: xx-small;
+  }
+  .Sign-up {
+    color: blue;
+  }
+  
